@@ -5,7 +5,7 @@
 			padding: 0;
 			margin: 0;
 		}
-		body{font-family: 'Open Sans', sans-serif;
+		body{font-family: 'Verdana';
 		}
  		.block1{
  			position: relative;
@@ -58,10 +58,15 @@
  		}	
  		.block1 ul.options li.blue{
  			background-color:#1E76BC;
- 		}	
+			-webkit-border-radius: 5px;
+			border-radius: 5px;
+			}	
 
  		.block1 ul.options li.green{
  			background-color:#27BF53;
+ 			-webkit-border-radius: 5px;
+			border-radius: 5px;
+
  		}	
  		
  		
