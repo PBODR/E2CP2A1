@@ -1,10 +1,9 @@
 style
 		*{
-
-		}
-		body{font-family: 'Verdana';
 			box-sizing: border-box;
-		
+		}
+		body{font-family: 'Pontano Sans', sans-serif;
+			
 			}
 		h2{
 			font-size: 20px;
@@ -93,49 +92,64 @@ style
  			width: 500px;
  			position: absolute;
  			bottom: 0px;	
- 			left: 45%;	
+ 			left: 35%;	
  			}
  		.block3{
 			position: relative;
+			box-sizing: border-box;
  			width: 100%;
  			height: 250px;
  			margin:0px;
  			background-color: #FAFAFA;
  			border: 1px solid #b3b3b3;
  			text-align: center;
- 			padding-top:100px
+ 			padding: 50px 200px 50px 200px;
  			}	
 		.block4{
 			position: relative;
  			width: 100%;
  			height: 250px;
  			justify-content: center;
- 			padding-top:100px;
- 			padding-left: 50px;
-			padding-right: 50px;
+ 			padding:50px 50px 0px 50px;
  			}
- 		.block4 li.gray {
+ 		.block4 ul{
+ 			position: relative;
+ 			left:-50px;
+ 			text-align: left;
+ 		}
+ 		.block4 li{
 			background-color:white;
 			border: 1px solid gray;
  			-webkit-border-radius: 5px;
 			border-radius: 5px;
 			display: inline;
  			float:left;
- 			color: #b3b3b3;
+ 			color: gray;
  			padding:10px;
  			margin-right: 5px;
- 		}		
+		}	
+ 		.block4 li.gray{
+ 			width: 110px;
+ 			color: #b3b3b3;
+ 		}	
+ 		.block4 table{
+ 			position: absolute;
+ 			left:200px;
+ 			text-align: left;	
+ 		}
+ 		.block4 td{
+ 			width: 250px;	
+ 		}
 		.block5{
 			position: relative;
+			box-sizing: border-box;
  			width: 100%;
  			height:50px;
  			background-color:#222222;
- 			padding-left: 50px;
-			padding-right: 50px;
+ 			padding-left: 200px;
  			}
  		.block5 p{
  			position: absolute;
-			color: white;
-
+			color: white;	
 			}	
 		
